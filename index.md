@@ -2,6 +2,8 @@
 
 Aplikasi ini dibuat khusus untuk cetak voucher dari smartphone ke printer thermal bluetooth yang digenerate menggunakan userman mikrotik.
 
+### Download [iPrint Free](https://play.google.com/store/apps/details?id=id.ioneservice.iprint.free)
+
 Sebelum mencetak anda harus buat template voucher baru di user manager mikrotik dengan nama bebas atau misal iPrint App dan copy paste kode berikut:
 
 ### Pada kolom Header isikan kode atau script berikut:
