@@ -1,29 +1,56 @@
-## Welcome to GitHub Pages
+## iPrint Tutoril
 
-You can use the [editor on GitHub](https://github.com/ioneservice/ioneservice.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Aplikasi ini dibuat khusus untuk cetak voucher dari smartphone ke printer thermal bluetooth yang digenerate menggunakan userman mikrotik.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Sebelum mencetak anda harus buat template voucher baru di user manager mikrotik dengan nama bebas atau misal iPrint App dan copy paste kode berikut:
 
-### Markdown
+### Pada kolom header isikan kode atau script berikut:
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
-Syntax highlighted code block
+<!DOCTYPE html>
+<html>
+<head>
+<title>iPrint App </title>
+</head>
+<body>
+<script> 
+function copyer(containerid) {
+    var elt = document.getElementById(containerid);
+    if (document.selection) { // IE
+        if(elt.nodeName.toLowerCase() === "input"){
+            document.getElementById(containerid).select();
+            document.execCommand("copy");
+        }else{
+            var range = document.body.createTextRange();
+            range.moveToElementText(document.getElementById(containerid));
+            range.select();
+            document.execCommand("copy");
+        } 
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+    } else if (window.getSelection) {
+        if(elt.nodeName.toLowerCase() === "input"){
+            document.getElementById(containerid).select();
+            document.execCommand("copy");
+        }else{
+            var range_ = document.createRange();
+            range_.selectNode(document.getElementById(containerid));
+            window.getSelection().removeAllRanges();
+            window.getSelection().addRange(range_);
+            document.execCommand("copy");
+    }
+    }
+}
+</script>
+<center><p></p>
+<button onClick="copym()">Copy Voucher!</button>
+<script>
+function copym(){
+  copyer("hm");
+}
+</script>
+<table id="hm">
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
