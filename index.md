@@ -4,7 +4,7 @@ Aplikasi ini dibuat khusus untuk cetak voucher dari smartphone ke printer therma
 
 ### Download [iPrint Free](https://play.google.com/store/apps/details?id=id.ioneservice.iprint.free)
 
-Sebelum mencetak anda harus buat template voucher baru di user manager mikrotik dengan nama bebas atau misal iPrint App dan copy paste kode berikut:
+Sebelum mencetak anda harus buat template voucher baru di user manager mikrotik. Proses pembuatan template voucher hanya sekali saja. Buat template dengan nama bebas atau misal iPrint App dan copy paste kode berikut:
 
 ### Pada kolom Header isikan kode atau script berikut:
 
