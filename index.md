@@ -50,6 +50,7 @@ function copym(){
 </script>
 <table id="hm">
 ```
+
 ### Pada kolom row isikan kode atau script berikut:
 
 ```markdown
@@ -61,6 +62,7 @@ function copym(){
 <tr><td>"%u_limitDownload%"</td></tr>
 <tr><td>"%u_moneyPaid%"</td></tr>
 ```
+
 ### Pada kolom footer isikan kode atau script berikut:
 
 ```markdown
@@ -77,11 +79,16 @@ rows[i].insertBefore(td, rows[i].firstChild);}
 </body>
 </html>
 ```
-### Jangan mengubah kode atau script diatas karena dapat mengakibatkan proses cetak bermasalah!
+
+### Note:
+
+Jangan mengubah kode atau script diatas karena dapat mengakibatkan proses cetak bermasalah!
 
 Setelah semua benar simpan template. Selanjutanya generate voucher > copy kode voucher yang tampil dengan klik tombol "Copy Voucher!" > pastekan ke aplikasi iPrint > koneksikan bluetooth printer > klik proses > klik print > hasil print akan keluar ;)
 
-Note: Untuk sementara hanya bisa cetak voucher 1 saja, dalam arti tidak bisa cetak voucher sekaligus banyak. Generate 1 voucher di userman untuk sekali cetak, dan jika ingin cetak lagi, generate lagi 1 voucher dan cetak, terus demikian.
+iPrint Single hanya bisa cetak voucher 1 saja, dalam arti tidak bisa cetak voucher sekaligus banyak. Generate 1 voucher di userman untuk sekali cetak, dan jika ingin cetak lagi, generate lagi 1 voucher dan cetak, terus demikian.
+
+iPrint Multiple hanya bisa cetak voucher maxsimal 5 saja. Generate 5 voucher atau lebih output cetak tetep 5. Tidak boleh generate voucher kurang dari 5 karena Aplikasi iPrint akan error!
 
 Sekian, Semoga bermanfaat ;)
-## Download [iPrint Free](https://play.google.com/store/apps/details?id=id.ioneservice.iprint.free).
+### Download [iPrint Free](https://play.google.com/store/apps/details?id=id.ioneservice.iprint.free).
