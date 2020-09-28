@@ -1,12 +1,10 @@
-## iPrint Tutoril
+## iPrint Tutorial Installasi
 
 Aplikasi ini dibuat khusus untuk cetak voucher dari smartphone ke printer thermal bluetooth yang digenerate menggunakan userman mikrotik.
 
 Sebelum mencetak anda harus buat template voucher baru di user manager mikrotik dengan nama bebas atau misal iPrint App dan copy paste kode berikut:
 
-### Pada kolom header isikan kode atau script berikut:
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Pada kolom Header isikan kode atau script berikut:
 
 ```markdown
 <!DOCTYPE html>
@@ -52,13 +50,38 @@ function copym(){
 </script>
 <table id="hm">
 ```
+### Pada kolom row isikan kode atau script berikut:
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+```markdown
+<tr><td>"%u_actualProfileName%"</td></tr>
+<tr><td>"%u_username%"</td></tr>
+<tr><td>"%u_password%"</td></tr>
+<tr><td>"%u_limitUptime%"</td></tr>
+<tr><td>"%u_timeLeft%"</td></tr>
+<tr><td>"%u_limitDownload%"</td></tr>
+<tr><td>"%u_moneyPaid%"</td></tr>
+```
+### Pada kolom footer isikan kode atau script berikut:
 
-### Jekyll Themes
+```markdown
+<tr><td></td></tr></table></center>
+<script type="text/javascript">
+var tables = document.getElementsByTagName('table');
+var table = tables[tables.length - 1];
+var rows = table.rows;
+for(var i = 0, td; i < rows.length; i++){
+td = document.createElement('td');
+td.appendChild(document.createTextNode("[" + i + "]"));
+rows[i].insertBefore(td, rows[i].firstChild);}
+</script>
+</body>
+</html>
+```
+### Jangan mengubah kode atau script diatas karena dapat mengakibatkan proses cetak bermasalah!
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ioneservice/ioneservice.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Setelah semua benar simpan template. Selanjutanya generate voucher > copy kode voucher yang tampil dengan klik tombol "Copy Voucher!" > pastekan ke aplikasi iPrint > koneksikan bluetooth printer > klik proses > klik print > hasil print akan keluar ;)
 
-### Support or Contact
+Note: Untuk sementara hanya bisa cetak voucher 1 saja, dalam arti tidak bisa cetak voucher sekaligus banyak. Generate 1 voucher di userman untuk sekali cetak, dan jika ingin cetak lagi, generate lagi 1 voucher dan cetak, terus demikian.
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Sekian, Semoga bermanfaat ;)
+## Download [iPrint Free](https://play.google.com/store/apps/details?id=id.ioneservice.iprint.free).
