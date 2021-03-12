@@ -62,8 +62,11 @@ function copym(){
 <tr><td>"%u_limitUptime%"</td></tr>
 <tr><td>"%u_timeLeft%"</td></tr>
 <tr><td>"%u_limitDownload%"</td></tr>
-<tr><td>"%u_moneyPaid%"</td></tr>
+<tr><td>"Rp %u_moneyPaid%"</td></tr>
 ```
+#### Note:
+
+Untuk merubah symbol mata uang, pada script berikut <tr><td>"Rp %u_moneyPaid%"</td></tr> ubah atau ganti symbol Rp dengan symbol mata uang negara anda. Misal dollar, penulisanya <tr><td>"$ %u_moneyPaid%"</td></tr> dan sebagainya.
 
 ### Pada kolom footer isikan kode atau script berikut:
 
