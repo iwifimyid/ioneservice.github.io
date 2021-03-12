@@ -66,7 +66,7 @@ function copym(){
 ```
 #### Note:
 
-Untuk merubah symbol mata uang, ubah pada script berikut "Rp %u_moneyPaid%" ganti symbol Rp (symbol mata uang indonesia) dengan symbol mata uang negara anda. Misal dollar, penulisanya "$ %u_moneyPaid%" dan sebagainya.
+Untuk merubah symbol mata uang, ubah pada script berikut "Rp %u_moneyPaid%" ganti symbol Rp (symbol mata uang indonesia) dengan symbol mata uang negara anda. Misal mata uang anda dollar, penulisan di script "$ %u_moneyPaid%".
 
 ### Pada kolom footer isikan kode atau script berikut:
 
