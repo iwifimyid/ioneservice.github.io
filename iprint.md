@@ -1,12 +1,13 @@
-## iPrint Tutorial Installasi
+## iPrint Installation Tutorial
 
-Aplikasi ini dibuat khusus untuk cetak voucher dari smartphone ke printer thermal bluetooth yang digenerate menggunakan userman mikrotik.
+This application is made specifically for printing vouchers from smartphones to bluetooth thermal printers that are generated using Userman Mikrotik.
 
-### Download [iPrint Free](https://play.google.com/store/apps/dev?id=8423040983922636558)
+### Download [iPrint Free](https://play.google.com/store/apps/details?id=id.my.iwifi.iprint.free)
+### Download [iPrint Pro English](https://play.google.com/store/apps/details?id=id.my.iwifi.iprint.proen)
 
-Sebelum mencetak anda harus buat template voucher baru di user manager mikrotik. Proses pembuatan template voucher hanya sekali saja. Buat template dengan nama bebas atau misal iPrint App dan copy paste kode berikut:
+Before printing you have to create a new voucher template in the Mikrotik user manager. The process of making a voucher template is only once. Create a template with a free name or for example the iPrint App and copy and paste the following code:
 
-### Pada kolom Header isikan kode atau script berikut:
+### In the Header column, enter the following script:
 
 ```markdown
 <!DOCTYPE html>
@@ -53,7 +54,7 @@ function copym(){
 <table id="hm">
 ```
 
-### Pada kolom row isikan kode atau script berikut:
+### In the row column, fill in the following script:
 
 ```markdown
 <tr><td>"%u_actualProfileName%"</td></tr>
@@ -66,9 +67,9 @@ function copym(){
 ```
 #### Note:
 
-Untuk merubah symbol mata uang, ubah pada script berikut "Rp %u_moneyPaid%" ganti symbol Rp (symbol mata uang indonesia) dengan symbol mata uang negara anda. Misal mata uang anda dollar, penulisan di script "$ %u_moneyPaid%".
+To change the currency symbol, change the following script "Rp% u_moneyPaid%" replace the Rp symbol (symbol of the Indonesian currency) with the symbol of your country's currency. For example, your currency is dollars, write in the script "$% u_moneyPaid%".
 
-### Pada kolom footer isikan kode atau script berikut:
+### In the footer column, enter the following script:
 
 ```markdown
 <tr><td></td></tr></table></center>
@@ -87,13 +88,13 @@ rows[i].insertBefore(td, rows[i].firstChild);}
 
 ### Note:
 
-Jangan mengubah kode atau script diatas karena dapat mengakibatkan proses cetak bermasalah!
+After all, save the template. Next, generate a voucher > copy the voucher code that appears by clicking the "Copy Voucher!" > Paste it into the iPrint application> connect to a bluetooth printer > click the process> click print > the print results will come out;)
 
-Setelah semua benar simpan template. Selanjutanya generate voucher > copy kode voucher yang tampil dengan klik tombol "Copy Voucher!" > pastekan ke aplikasi iPrint > koneksikan bluetooth printer > klik proses > klik print > hasil print akan keluar ;)
+iPrint Single can only print 1 voucher, meaning that you cannot print multiple vouchers at the same time. Generate 1 voucher on Userman for one print, and if you want to print again, generate 1 voucher again and print, continue to do so.
 
-iPrint Single hanya bisa cetak voucher 1 saja, dalam arti tidak bisa cetak voucher sekaligus banyak. Generate 1 voucher di userman untuk sekali cetak, dan jika ingin cetak lagi, generate lagi 1 voucher dan cetak, terus demikian.
+iPrint Multiple can only print a maximum of 5 vouchers. Generate 5 vouchers or more, but still 5 print output. You should not generate less than 5 vouchers because the iPrint application will have an error!
 
-iPrint Multiple hanya bisa cetak voucher maxsimal 5 saja. Generate 5 voucher atau lebih output cetak tetep 5. Tidak boleh generate voucher kurang dari 5 karena Aplikasi iPrint akan error!
+That's all, hopefully useful ;)
 
-Sekian, Semoga bermanfaat ;)
-### Download [iPrint Free](https://play.google.com/store/apps/dev?id=8423040983922636558)
+### Download [iPrint Free](https://play.google.com/store/apps/details?id=id.my.iwifi.iprint.free)
+### Download [iPrint Pro English](https://play.google.com/store/apps/details?id=id.my.iwifi.iprint.proen)
