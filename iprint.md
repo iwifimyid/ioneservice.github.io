@@ -67,7 +67,7 @@ function copym(){
 ```
 #### Note:
 
-To change the currency symbol, change the following script "Rp% u_moneyPaid%" replace the Rp symbol (symbol of the Indonesian currency) with the symbol of your country's currency. For example, your currency is dollars, write in the script "$% u_moneyPaid%".
+To change the currency symbol, change the following script "Rp %u_moneyPaid%" replace the Rp symbol (symbol of the Indonesian currency) with the symbol of your country's currency. For example, your currency is dollars, write in the script "$ %u_moneyPaid%".
 
 ### In the footer column, enter the following script:
 
