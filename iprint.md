@@ -2,8 +2,8 @@
 
 This application is made specifically for printing vouchers from smartphones to bluetooth thermal printers that are generated using Userman Mikrotik.
 
-### Download [iPrint Free](https://play.google.com/store/apps/details?id=id.my.iwifi.iprint.free)
-### Download [iPrint Pro English](https://play.google.com/store/apps/details?id=id.my.iwifi.iprint.proen)
+Download [iPrint Free](https://play.google.com/store/apps/details?id=id.my.iwifi.iprint.free)
+Download [iPrint Pro English](https://play.google.com/store/apps/details?id=id.my.iwifi.iprint.proen)
 
 Before printing you have to create a new voucher template in the Mikrotik user manager. The process of making a voucher template is only once. Create a template with a free name or for example the iPrint App and copy and paste the following code:
 
@@ -96,5 +96,5 @@ iPrint Multiple can only print a maximum of 5 vouchers. Generate 5 vouchers or m
 
 That's all, hopefully useful ;)
 
-### Download [iPrint Free](https://play.google.com/store/apps/details?id=id.my.iwifi.iprint.free)
-### Download [iPrint Pro English](https://play.google.com/store/apps/details?id=id.my.iwifi.iprint.proen)
+Download [iPrint Free](https://play.google.com/store/apps/details?id=id.my.iwifi.iprint.free)
+Download [iPrint Pro English](https://play.google.com/store/apps/details?id=id.my.iwifi.iprint.proen)
