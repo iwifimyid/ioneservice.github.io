@@ -87,7 +87,7 @@ rows[i].insertBefore(td, rows[i].firstChild);}
 
 ### Note:
 
-After all, save the template. Next, generate a voucher > copy the voucher code that appears by clicking the "Copy Voucher!" > Paste it into the iPrint application> connect to a bluetooth printer > click the process> click print > the print results will come out;)
+After all, save the template. Next, generate a voucher > copy the voucher code that appears by clicking the "Copy Voucher!" > Paste it into the iPrint application > connect to a bluetooth printer > click the process> click print > the print results will come out ;)
 
 iPrint Single can only print 1 voucher, meaning that you cannot print multiple vouchers at the same time. Generate 1 voucher on Userman for one print, and if you want to print again, generate 1 voucher again and print, continue to do so.
 
