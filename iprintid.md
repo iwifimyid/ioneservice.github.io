@@ -2,7 +2,7 @@
 
 Aplikasi ini dibuat khusus untuk cetak voucher dari smartphone ke printer thermal bluetooth yang digenerate menggunakan userman mikrotik.
 
-### Download [iPrint Pro Indonesia](https://play.google.com/store/apps/details?id=id.my.iwifi.iprint.pro)
+### Download [iPrint Pro Indonesia](https://play.google.com/store/apps/details?id=id.my.iwifi.iprint.pro) atau [iPrint Pro English](https://play.google.com/store/apps/details?id=id.my.iwifi.iprint.proen) atau [iPrint Free](https://play.google.com/store/apps/details?id=id.my.iwifi.iprint.free)
 
 Sebelum mencetak anda harus buat template voucher baru di user manager mikrotik. Proses pembuatan template voucher hanya sekali saja. Buat template dengan nama bebas atau misal iPrint App dan copy paste kode berikut:
 
@@ -90,7 +90,7 @@ Setelah semua benar simpan template. Selanjutanya generate voucher > copy kode v
 
 iPrint Single hanya bisa cetak voucher 1 saja, dalam arti tidak bisa cetak voucher sekaligus banyak. Generate 1 voucher di userman untuk sekali cetak, dan jika ingin cetak lagi, generate lagi 1 voucher dan cetak, terus demikian.
 
-iPrint Multiple hanya bisa cetak voucher maxsimal 5 saja. Generate 5 voucher atau lebih output cetak tetep 5. Tidak boleh generate voucher kurang dari 5 karena Aplikasi iPrint akan error!
+iPrint Multiple hanya bisa cetak voucher maxsimal 10 saja. Generate 10 voucher atau lebih output cetak tetep 10. Tidak boleh generate voucher kurang dari 10 karena Aplikasi iPrint akan error!
 
 Sekian, Semoga bermanfaat ;)
-### Download [iPrint Pro Indonesia](https://play.google.com/store/apps/details?id=id.my.iwifi.iprint.pro)
+### Download [iPrint Pro Indonesia](https://play.google.com/store/apps/details?id=id.my.iwifi.iprint.pro) atau [iPrint Pro English](https://play.google.com/store/apps/details?id=id.my.iwifi.iprint.proen) atau [iPrint Free](https://play.google.com/store/apps/details?id=id.my.iwifi.iprint.free)
