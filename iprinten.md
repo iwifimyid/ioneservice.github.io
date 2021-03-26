@@ -91,7 +91,7 @@ After all, save the template. Next, generate a voucher > copy the voucher code t
 
 iPrint Single can only print 1 voucher, meaning that you cannot print multiple vouchers at the same time. Generate 1 voucher on Userman for one print, and if you want to print again, generate 1 voucher again and print, continue to do so.
 
-iPrint Multiple can only print a maximum of 5 vouchers. Generate 5 vouchers or more, but still 5 print output. You should not generate less than 5 vouchers because the iPrint application will have an error!
+iPrint Multiple can only print a maximum of 10 vouchers. Generate 10 vouchers or more, but still 10 print output. You should not generate less than 10 vouchers because the iPrint application will have an error!
 
 That's all, hopefully useful ;)
 
